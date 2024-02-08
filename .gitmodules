@@ -1,0 +1,6 @@
+[submodule "assets/assets/Mastering-CSS-GRID"]
+	path = assets/assets/Mastering-CSS-GRID
+	url = https://github.com/PacktPublishing/Mastering-CSS-GRID
+[submodule "assets/Mastering-CSS-GRID"]
+	path = assets/Mastering-CSS-GRID
+	url = https://github.com/PacktPublishing/Mastering-CSS-GRID
