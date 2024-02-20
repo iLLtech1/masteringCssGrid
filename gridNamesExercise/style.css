@@ -15,9 +15,16 @@ body {
   padding: 8px;
   min-height: 100vh;
   display: grid;
+  grid-template-areas: 
+  "header header header header"
+  "sidebar content content content"
+  "sidebar content content content"
+  "sidebar content content content"
+  "footer footer footer footer";
 
-  grid-template-columns: [header-start sidebar-start footer-start] 1fr [sidebar-end content-start] 3fr [header-end content-end footer-end];
-  grid-template-rows: [header-start] 1fr [header-end sidebar-start content-start] 4fr [sidebar-end content-end footer-end] 1fr [footer-end];
+ 
+  /* grid-template-columns: [header-start sidebar-start footer-start] 1fr [sidebar-end content-start] 3fr [header-end content-end footer-end];
+  grid-template-rows: [header-start] 1fr [header-end sidebar-start content-start] 4fr [sidebar-end content-end footer-end] 1fr [footer-end]; */
 }
 
 header {
