@@ -7,7 +7,7 @@
 }
 
 .container>div {
-  background-color: darkblue;
+  background-color: rgb(209, 3, 250);
   display: flex;
   justify-content: center;
   align-items: center;
