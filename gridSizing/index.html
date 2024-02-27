@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    This grid uses min-content:
+  </p>
+
+  <div class="grid grid-using-min-content">
+    <img src="assets/200.png" width="200" height="200" 
+    alt=" Some placeholder image">
+    <div>Some other column</div>
+    <div>Some other column</div>
+
+    <hr>
+
+    <p>
+      This grid uses min-content, too:
+    </p>
+
+    <div class="grid grid-using-min-content">
+      <div>Hello, World!</div>
+      <div>Some other column</div>
+      <div>Some other column</div>
+    </div>
+
+    <hr>
+
+    <p>
+      This grid uses min-content, too, but also breaks text:
+    </p>
+
+    <div class="grid grid-using-min-content">
+      <div class="should-break">Hello, World!</div>
+      <div>Some other column</div>
+      <div>Some other column</div>
+    </div>
+
+    <hr>
+
+    <p>
+      This grid uses fit-content to show how the image stays the same size:
+    </p>
+
+    <div class="fit-content-grid">
+      <img src="assets/80.png" alt="80x80">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+    </div>
+
+  </div>
+</body>
+</html>
