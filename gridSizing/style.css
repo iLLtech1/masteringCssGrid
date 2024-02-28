@@ -36,11 +36,37 @@
   gap: 25px;
 } */
 
-.gallery-container {
+/* .gallery-container {
   width: 800px;
   height: 1600px;
   display: grid;
-  grid-template-columns: /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr */ repeat(8, 250px);
-  grid-template-rows: /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr repeat(8, 250px);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
   repeat(16, 250px); 
+} */
+
+/* .grid {
+  display: grid;
+  grid: auto-flow dense 100px / repeat(4, 1fr);
+} */
+
+/* .container {
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer"
+      ;
+  grid-template-rows: 200px 1fr 200px;
+  grid-template-columns: 150px 1fr;    
+} */
+
+.container {
+  display: grid;
+  grid-template:
+    "header header" 
+    "sidebar content" 
+    "footer footer" 
+    ;
+    gap: 15px 30px;
 }
